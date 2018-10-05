@@ -1,0 +1,8 @@
+To help others understand what I've been doing with versioning of the script, I want to take a moment to write it down.
+
+- If the script is ANY other number than v1.0, v2.0, v3.0 etc. then I consider it a Development Build. If it is this number, I consider it a Production Build.
+- Anything after the first decimal following a zero, ie. v0.1 or v0.2, is a Initial Development build.
+- Anything after the first decimal following a one, ie. v1.2 or v2.2, is a Approved Prodection Build Edit.
+- After the second decimal is an edit of the script in that state. Same as branching basically. v1.1.1 would be an unapproved edit of Production Build 1, Approved Production Build Edit 1.
+
+So pretty much, if you make a change just append a .1 to the version and go up from there. If there is a conflict I'll come up with something else.
