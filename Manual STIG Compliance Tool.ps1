@@ -10,9 +10,9 @@ cls
 $ConsoleBuffer = $Host.UI.RawUI.BufferSize
 $ConsoleWindow = $Host.UI.RawUI.WindowSize
 $ConsoleWindow.Height = (58)
-$ConsoleWindow.Width = (138) #If this is scaled to 128, the banner meets the edge of the console window perfect...
+$ConsoleWindow.Width = (138) #If this is scaled to 128, the banner meets the edge of the console window perfect... I changed this to 138 because I added a character to the banner.
 $ConsoleBuffer.Height = (3000)
-$ConsoleBuffer.Width = (138) #If this is scaled to 128, the banner get's deformed in ICE... I can't win here!
+$ConsoleBuffer.Width = (138) #If this is scaled to 128, the banner get's deformed in ICE... I can't win here! I changed this to 138 because I added a character to the banner.
 $host.UI.RawUI.set_bufferSize($ConsoleBuffer)
 $host.UI.RawUI.set_windowSize($ConsoleWindow)
 
